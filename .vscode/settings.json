@@ -1,0 +1,29 @@
+{
+    "java.project.sourcePaths": [
+        "libs\\DesktopJavaFramework\\src",
+        "apps\\ToDoListMaker\\src",
+        "libs\\jTPS\\src",
+        "libs\\PropertiesManager\\src"
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "apps\\ToDoListMaker\\dist\\lib\\DesktopJavaFramework.jar",
+            "apps\\ToDoListMaker\\dist\\lib\\javax.json-1.0.4.jar",
+            "apps\\ToDoListMaker\\dist\\lib\\jTPS.jar",
+            "apps\\ToDoListMaker\\dist\\lib\\PropertiesManager.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+            "c:\\Program Files\\JavaFX\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar",
+            "libs/PropertiesManager/dist/PropertiesManager.jar"
+        ],
+        "exclude": [
+            "apps/ToDoListMaker/dist/lib/PropertiesManager.jar"
+        ]
+    }
+}

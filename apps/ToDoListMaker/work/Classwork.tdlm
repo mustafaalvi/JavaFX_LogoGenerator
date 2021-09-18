@@ -1,0 +1,23 @@
+
+{
+    "owner":"Starcraft Stratsss",
+    "list_name":"McKilla Gorilla",
+    "items":[
+        {
+            "category":"a",
+            "description":"a",
+            "start_date":"2018-07-18",
+            "end_date":"2018-07-18",
+            "assigned_to":"a",
+            "completed":false
+        },
+        {
+            "category":"b",
+            "description":"b",
+            "start_date":"2018-07-11",
+            "end_date":"2018-07-18",
+            "assigned_to":"b",
+            "completed":false
+        }
+    ]
+}

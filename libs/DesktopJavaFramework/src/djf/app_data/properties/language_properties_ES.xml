@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="Bienvenido a To Do List Maker"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="Trabajo Reciente"></property>
+        <property name="WELCOME_DIALOG_CREATE_BUTTON_TEXT"  value="Crear un Nuevo List Maker"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="Error de la Aplicación"></property>
+        <property name="APP_ERROR_CONTENT"          value="Un Error Ocurrido en la Aplicación"></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="Error de Archivo de Propiedades"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="Hubo un Error al Cargar un Archivo de Propiedades"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="Nuevo Lista"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="Cargar Lista"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="Cerrar Lista"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="Guardar Lista"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="Exportar Lista"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="Salir de la Aplicación"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="Cortar"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="Dupdo"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="Pegar"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="Deshacer"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="Rehacer"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="Ayuda"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="Cambiar Idioma"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="Acerca de"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="Nuevo Completo"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="Trabajo Creado pero aún no Guardado"></property>
+        <property name="NEW_ERROR_TITLE"        value="Advertencia: Error"></property>
+        <property name="NEW_ERROR_CONTENT"      value="Se produjo un error al crear un nuevo trabajo."></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"                 value="Cargar Trabajo"></property>
+        <property name="LOAD_SUCCESS_TITLE"              value="Carga Completa"></property>
+        <property name="LOAD_SUCCESS_CONTENT"            value="El archivo se cargó con éxito y ahora se puede editar."></property>
+        <property name="LOAD_ERROR_TITLE"                value="Error de Carga"></property>        
+        <property name="LOAD_ERROR_CONTENT"              value="Cargando ha fallado Probablemente haya un problema de File Formatting."></property>
+        <property name="LOAD_ERROR_NULL_TITLE"           value="Error de carga: objeto nulo"></property>        
+        <property name="LOAD_ERROR_NULL_CONTENT"         value="El programa ha encontrado un objeto o campo nulo durante la carga. Un valor predeterminado se colocará allí"></property>
+        <property name="LOAD_ERROR_LANGUAGE_TITLE"       value="Error de carga idioma"></property>        
+        <property name="LOAD_ERROR_LANGUAGE_CONTENT"     value="Hubo un error al colocar tu idioma en el U.I."></property>
+        
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="Ahorre Trabajo"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="Guardar Completo"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="El Archivo está Guardado."></property>
+        <property name="SAVE_ERROR_TITLE"       value="Guardar Error"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="El ahorro ha fallado. Probablemente debido a un problema de acceso a archivos."></property>
+        <property name="SAVE_VERIFY_TITLE"	value="¿Guardar trabajo no guardado?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="¿Le gustaría guardar su trabajo no guardado primero?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="Acerca de TDLM"></property>
+        <property name="ABOUT_CONTENT"          value="TDLM, el To Do List Maker - SWHAG Enterprises - © 2018"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+        
+        <!-- LANGUAGE-DEPENDENT TEXT FOR WORKSPACE CONTROLS -->
+        <property name="TDLM_TO_DO_LIST_LABEL_TEXT"      value="@todo Lista"></property>
+        <property name="TDLM_NAME_LABEL_TEXT"            value="Nombre de la lista:"></property>
+        <property name="TDLM_OWNER_LABEL_TEXT"           value="Propietario de la lista"></property>
+        <property name="TDLM_ITEMS_LABEL_TEXT"           value="Elementos"></property>
+        <property name="TDLM_ADD_ITEM_BUTTON_TOOLTIP"    value="Agregar nuevo elemento"></property>
+        <property name="TDLM_REMOVE_ITEM_BUTTON_TOOLTIP" value="Eliminar elemento seleccionado"></property>
+        <property name="TDLM_EDIT_ITEM_BUTTON_TOOLTIP"   value="Editar elemento seleccionado"></property>
+        <property name="TDLM_MOVE_UP_ITEM_BUTTON_TOOLTIP"     value="Mover el elemento seleccionado hacia arriba"></property>
+        <property name="TDLM_MOVE_DOWN_ITEM_BUTTON_TOOLTIP"   value="Mover el elemento seleccionado hacia abajo"></property>
+        <property name="TDLM_CATEGORY_COLUMN_TEXT"       value="Categoría"></property>
+        <property name="TDLM_DESCRIPTION_COLUMN_TEXT"    value="Descripción"></property>
+        <property name="TDLM_START_DATE_COLUMN_TEXT"     value="Fecha de inicio"></property>
+        <property name="TDLM_END_DATE_COLUMN_TEXT"       value="Fecha de finalización"></property>
+        <property name="TDLM_ASSIGNED_TO_COLUMN_TEXT"    value="Asignado a"></property>
+        <property name="TDLM_COMPLETED_COLUMN_TEXT"      value="Terminado"></property>
+        
+        <!-- LANGUAGE-DEPENDENT TEXT FOR ITEM DIALOG CONTROLS -->
+        <property name="TDLM_ITEM_DIALOG_HEADER_TEXT"               value="Agregar/Editar elementos"></property>
+        <property name="TDLM_ITEM_DIALOG_ADD_HEADER_TEXT"           value="Agregar Elemento"></property>
+        <property name="TDLM_ITEM_DIALOG_EDIT_HEADER_TEXT"          value="Editar Elemento"></property>
+        <property name="TDLM_ITEM_DIALOG_CATEGORY_PROMPT_TEXT"      value="Categoría:"></property>
+        <property name="TDLM_ITEM_DIALOG_DESCRIPTION_PROMPT_TEXT"   value="Descripción"></property>
+        <property name="TDLM_ITEM_DIALOG_START_DATE_PROMPT_TEXT"    value="Fecha de Inicio:"></property>
+        <property name="TDLM_ITEM_DIALOG_END_DATE_PROMPT_TEXT"      value="Fecha de finalización"></property>
+        <property name="TDLM_ITEM_DIALOG_ASSIGNED_TO_PROMPT_TEXT"   value="Asignado a:"></property>
+        <property name="TDLM_ITEM_DIALOG_COMPLETED_PROMPT_TEXT"     value="Terminado:"></property>
+        <property name="TDLM_ITEM_DIALOG_OK_BUTTON_TEXT"            value="OK"></property>
+        <property name="TDLM_ITEM_DIALOG_CANCEL_BUTTON_TEXT"        value="Cancelar"></property>
+        <property name="TDLM_ITEM_INVALID_TITLE"                    value="Entrada Inválida"></property>     
+        <property name="TDLM_ITEM_INVALID_MESSAGE"                  value="Datos inválidos para la nueva línea"></property>   
+       
+        
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="Idioma de la Aplicación"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="Elija un idioma"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="Seleccione un idioma para la interfaz de usuario."></property>
+
+        <property name="WORK_FILE_EXT"          value="tdlm"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="To Do List Maker Archivos"></property>
+
+    </property_list>
+    
+    <!-- TDLM COMBO BOX CHOICES -->
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English (Inglés)</option>
+            <option>Korean (Coreano)</option>
+            <option>Spanish (Español)</option>
+        </property_options>
+    </property_options_list>
+</properties>

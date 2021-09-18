@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="메트로 맵 메이커에 오신 것을 환영합니다."></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="최근 작업"></property>
+        <property name="WELCOME_DIALOG_CREATE_BUTTON_TEXT"  value="새 메트로 맵 만들기"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="응용 프로그램 오류"></property>
+        <property name="APP_ERROR_CONTENT"          value="응용 프로그램에서 오류가 발생했습니다."></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="속성 파일 오류"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="속성 파일을로드하는 중 오류가 발생했습니다."></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="새지도"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="지도로드"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="지도 닫기"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="지도 저장"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="지도 내보내기"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="출구"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="자르다"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="복사"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="붙여 넣기"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="실행 취소"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="다시하기"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="도움말"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="언어 변경"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="정보"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="새로운 완료"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="생성되었지만 아직 저장되지 않은 작업"></property>
+        <property name="NEW_ERROR_TITLE"        value="경고 : 오류"></property>
+        <property name="NEW_ERROR_CONTENT"      value="새 작업을 만드는 동안 오류가 발생했습니다."></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="작업로드"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="로드 완료"></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="파일이 성공적으로로드되었으며 이제 편집 할 수 있습니다."></property>
+        <property name="LOAD_ERROR_TITLE"       value="로딩 오류"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="로드가 실패했습니다. 파일 형성 문제가있을 가능성이 있습니다."></property>
+        <property name="LOAD_ERROR_NULL_TITLE"       value="로드 중 오류 : Null 개체"></property>        
+        <property name="LOAD_ERROR_NULL_CONTENT"     value="로드하는 동안 프로그램에서 널 (null) 오브젝트 또는 필드를 발견했습니다. 기본값이 그곳에 배치됩니다"></property>
+        <property name="LOAD_ERROR_LANGUAGE_TITLE"       value="로딩 오류"></property>        
+        <property name="LOAD_ERROR_LANGUAGE_CONTENT"     value="로드가 실패했습니다"></property>
+
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="작업 저장"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="저장 완료"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="파일이 저장됩니다."></property>
+        <property name="SAVE_ERROR_TITLE"       value="오류 저장"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="저장하지 못했습니다. 파일 액세스 문제로 인한 것 같습니다."></property>
+        <property name="SAVE_VERIFY_TITLE"	value="저장되지 않은 작업을 저장 하시겠습니까?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="저장되지 않은 작업을 먼저 저장 하시겠습니까?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="정보 TDLM"></property>
+        <property name="ABOUT_CONTENT"          value="TDLM, the To Do List Maker (할 일 목록 작성자)"></property>
+
+       <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+        
+        <!-- LANGUAGE-DEPENDENT TEXT FOR WORKSPACE CONTROLS -->
+        <property name="TDLM_TO_DO_LIST_LABEL_TEXT"      value="@할 일 목록"></property>
+        <property name="TDLM_NAME_LABEL_TEXT"            value="목록 이름:"></property>
+        <property name="TDLM_OWNER_LABEL_TEXT"           value="목록 소유자:"></property>
+        <property name="TDLM_ITEMS_LABEL_TEXT"           value="항목"></property>
+        <property name="TDLM_ADD_ITEM_BUTTON_TOOLTIP"    value="새 항목 추가"></property>
+        <property name="TDLM_REMOVE_ITEM_BUTTON_TOOLTIP" value="선택한 항목 제거"></property>
+        <property name="TDLM_EDIT_ITEM_BUTTON_TOOLTIP"   value="선택한 항목 편집"></property>
+        <property name="TDLM_MOVE_UP_ITEM_BUTTON_TOOLTIP"     value="선택한 항목을 위로 이동하십시오."></property>
+        <property name="TDLM_MOVE_DOWN_ITEM_BUTTON_TOOLTIP"   value="선택한 항목을 아래로 이동"></property>
+        <property name="TDLM_CATEGORY_COLUMN_TEXT"       value="범주"></property>
+        <property name="TDLM_DESCRIPTION_COLUMN_TEXT"    value="기술"></property>
+        <property name="TDLM_START_DATE_COLUMN_TEXT"     value="스타트"></property>
+        <property name="TDLM_END_DATE_COLUMN_TEXT"       value="종료"></property>
+        <property name="TDLM_ASSIGNED_TO_COLUMN_TEXT"    value="배정 된"></property>
+        <property name="TDLM_COMPLETED_COLUMN_TEXT"      value="완료된"></property>
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR ITEM DIALOG CONTROLS -->
+        <property name="TDLM_ITEM_DIALOG_HEADER_TEXT"               value="항목 추가 / 편집"></property>
+        <property name="TDLM_ITEM_DIALOG_ADD_HEADER_TEXT"           value="아이템 추가"></property>
+        <property name="TDLM_ITEM_DIALOG_EDIT_HEADER_TEXT"          value="항목 편집"></property>
+        <property name="TDLM_ITEM_DIALOG_CATEGORY_PROMPT_TEXT"      value="범주:"></property>
+        <property name="TDLM_ITEM_DIALOG_DESCRIPTION_PROMPT_TEXT"   value="기술:"></property>
+        <property name="TDLM_ITEM_DIALOG_START_DATE_PROMPT_TEXT"    value="시작일:"></property>
+        <property name="TDLM_ITEM_DIALOG_END_DATE_PROMPT_TEXT"      value="종료일:"></property>
+        <property name="TDLM_ITEM_DIALOG_ASSIGNED_TO_PROMPT_TEXT"   value="할당:"></property>
+        <property name="TDLM_ITEM_DIALOG_COMPLETED_PROMPT_TEXT"     value="완료 됨:"></property>
+        <property name="TDLM_ITEM_DIALOG_OK_BUTTON_TEXT"            value="승인"></property>
+        <property name="TDLM_ITEM_DIALOG_CANCEL_BUTTON_TEXT"        value="취소"></property> 
+        <property name="TDLM_ITEM_INVALID_TITLE"                    value="잘못된 입력"></property>     
+        <property name="TDLM_ITEM_INVALID_MESSAGE"                  value="새 줄에 대한 데이터가 잘못되었습니다.e"></property>     
+       
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="앱 언어 선택"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="언어 선택"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="사용자 인터페이스의 언어 선택."></property>
+
+        <property name="WORK_FILE_EXT"          value="tdlm"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="목록 작성기 파일을 수행하려면"></property>
+
+    </property_list>
+    
+    <!-- TDLM COMBO BOX CHOICES -->
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English (영어)</option>
+            <option>Korean (한국어)</option>
+            <option>Spanish (스페인 사람)</option>
+        </property_options>
+    </property_options_list>
+</properties>

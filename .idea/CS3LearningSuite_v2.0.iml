@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/apps/ToDoListMaker/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/DesktopJavaFramework/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/jTPS/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/PropertiesManager/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/PropertiesManager/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/jTPS/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/DesktopJavaFramework/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/ToDoListMaker/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/ToDoListMaker/test" />
+      <excludeFolder url="file://$MODULE_DIR$/libs/DesktopJavaFramework/test" />
+      <excludeFolder url="file://$MODULE_DIR$/libs/PropertiesManager/test" />
+      <excludeFolder url="file://$MODULE_DIR$/libs/jTPS/test" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="javax.json-1.0.4" level="project" />
+  </component>
+</module>
